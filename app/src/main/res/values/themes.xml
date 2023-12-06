@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Javamidtermproject" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowEnterTransition" tools:targetApi="lollipop">@transition/transition_animation</item>
+        <item name="android:windowExitTransition" tools:targetApi="lollipop">@transition/transition_animation</item>
+
+    </style>
+
+    <style name="Theme.Javamidtermproject" parent="Base.Theme.Javamidtermproject" />
+</resources>

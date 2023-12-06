@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".SmsActivity"
+    tools:ignore="Orientation">
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon numaranızı giriniz."
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="15sp" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mesajınızı giriniz."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLength="10"
+        android:padding="15sp" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönder"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
